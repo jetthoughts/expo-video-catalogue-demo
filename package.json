@@ -11,6 +11,15 @@
   "dependencies": {
     "expo": "^30.0.1",
     "react": "16.3.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "tslib": "1.9.3"
+  },
+  "devDependencies": {
+    "@types/expo": "27.0.13",
+    "@types/expo__vector-icons": "6.2.3",
+    "@types/react": "16.4.16",
+    "@types/react-native": "0.57.6",
+    "react-native-typescript-transformer": "1.2.10",
+    "typescript": "3.1.3"
   }
 }
