@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Sea trip",
+    "previewImage": "https://res.cloudinary.com/davhyl8f2/image/upload/v1539689606/pexels-photo-1481096_bknyjx.jpg",
+    "id": "c1r342c2",
+    "duration": "0:55"
+  },
+  {
+    "name": "In mountains",
+    "previewImage": "https://res.cloudinary.com/davhyl8f2/image/upload/v1539689606/pexels-photo-1480799_xe2h5h.jpg",
+    "id": "432cr34r",
+    "duration": "3:00"
+  },
+  {
+    "name": "At work",
+    "previewImage": "https://res.cloudinary.com/davhyl8f2/image/upload/v1539689606/pexels-photo-1478477_bddfuv.jpg",
+    "id": "43rcc3rd",
+    "duration": "4:12"
+  }
+]
