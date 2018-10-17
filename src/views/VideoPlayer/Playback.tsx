@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Video } from 'expo'
 import VideoPlayer from '@expo/videoplayer'
 import { Actions } from 'react-native-router-flux'
-import api from '../../services/FixtureApi'
+import api from '../../services/api'
 import Spinner from '../Spinner'
 
 interface Props {

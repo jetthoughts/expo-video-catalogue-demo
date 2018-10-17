@@ -3,7 +3,7 @@ import { View } from 'react-native'
 import VideoCarousel from './VideoCarousel'
 import styles from './styles'
 import { LinearGradient } from 'expo'
-import api from '../../services/FixtureApi'
+import api from '../../services/api'
 import Spinner from '../Spinner'
 
 class Home extends Component {
