@@ -1,5 +1,6 @@
 import React, { SFC } from 'react'
 import { View, Text, Image, TouchableOpacity } from 'react-native'
+import { Actions } from 'react-native-router-flux'
 import styles from './styles'
 
 interface PreviewProps {
@@ -17,7 +18,7 @@ const PreviewSlide: SFC<PreviewProps> = ({ preview }) => {
   const { previewImage, name, id, duration } = preview
   return (
     <View style={styles.slideHolder}>
-      <TouchableOpacity onPress={() => true}>
+      <TouchableOpacity onPress={() => Actions.VideoPlayer({ id })}>
         <Image style={styles.slideImage} source={{ uri: previewImage }} />
       </TouchableOpacity>
       <Text style={styles.videoDuration}>{duration}</Text>
