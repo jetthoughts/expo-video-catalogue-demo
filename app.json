@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "expo-video-catalogue-demo",
-    "description": "This project is really great.",
+    "description": "This is a video catalogue app where a user can go through the list of videos, choose and watch a video. This project is a demo for an article.",
     "slug": "expo-video-catalogue-demo",
     "privacy": "public",
     "sdkVersion": "30.0.0",
